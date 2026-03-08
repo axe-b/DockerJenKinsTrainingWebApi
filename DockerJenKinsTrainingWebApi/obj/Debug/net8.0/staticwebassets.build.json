@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FVEEaXS9NqQ8O6/NARFCxfnLfcTyhl7fSmhyltqYZGg=",
+  "Source": "DockerJenKinsTrainingWebApi",
+  "BasePath": "_content/DockerJenKinsTrainingWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
