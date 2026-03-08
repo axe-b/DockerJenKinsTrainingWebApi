@@ -18,3 +18,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/DockerJenKinsTrainingWebApi/out ./
 ENTRYPOINT ["dotnet", "DockerJenKinsTrainingWebApi.dll"]
+ENV ASPNETCORE_URLS=http://+:80
