@@ -28,7 +28,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: Build Docker image
-      run: docker build -t yourdockerhubusername/dockerjenkinstrainingwebapi .
+      run: docker build -t c/dockerjenkinstrainingwebapi .
 
     # Optional: Push Docker image to Docker Hub
     - name: Log in to Docker Hub
@@ -38,4 +38,4 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Push Docker image
-      run: docker push yourdockerhubusername/dockerjenkinstrainingwebapi
+      run: docker push bria849/dockerjenkinstrainingwebapi
