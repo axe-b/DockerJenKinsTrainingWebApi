@@ -1,4 +1,5 @@
 @DockerJenKinsTrainingWebApi_HostAddress = http://localhost:5062
+
 GET {{DockerJenKinsTrainingWebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
